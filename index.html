@@ -136,11 +136,57 @@
 {
 width:100%;
 }
+.course-row {
+    margin: 0 0 30px 0;
+    background-color: #fbfbfb;
+     border: 1px #fbfbfb solid;
+  padding: 10px;
+  box-shadow: 10px #fbfbfb;
+  height: auto;
+}
+.course-section {
+    background-color: #f5f5f5;
+}
+.course-row:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.button-container
+{
+font-weight: 700;
+    text-transform: uppercase;
+    background-color: #5e068a;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.course-item-sec  {
+    height: 330px;
+    box-shadow: 10px #fbfbfb;
+    border: 1px #fbfbfb solid;
+  padding: 10px;
+}
+.card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.course-item-sec h3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #5e068a;
+    margin-top: 20px;
+}
+.stroke-btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #5e068a;
+    text-decoration: underline;
+}
   </style>
 </head>
 
 <body>
-  <div class="header-top">
+  <div class="header-top ">
     <div class="container">
       <div class="row">
         <div class="col-lg-7 col-md-6 col-12" style="margin-top: 5px;">
@@ -168,7 +214,7 @@ width:100%;
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -344,6 +390,7 @@ width:100%;
         </div>
         <!--About Image Area End-->
       </div>
+      <div class="course-section" style="width:100%;padding: 100px 0;">
       <div class="header-sec">
         <div class="col-lg-12" style="text-align: center;">
           <h3 style="color: #9c09e9;">Our <span style="color: #9e6ab9;">Courses</span></h3>
@@ -351,14 +398,13 @@ width:100%;
       </div>
       <div class="col-lg-12">
 
-        <div class="row course-row">
+        <div class="row course-row ">
           <div class="col-md-6 course-column">
-            <div 
-        >
-<img class="img-sec"  src="./images/data-science-1588143159.jpg" alt="">
+            <div>
+             <img class="img-sec"  src="./images/data-science-1588143159.jpg" alt="">
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-12">
 
             <div class="second-col">
               <!-- <h3>Big  Data Analytics - Data Science & Machine Learning</h3> -->
@@ -373,14 +419,13 @@ width:100%;
                   Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p>
                 <p><strong>📅 Next Batch : Jan 03<sup>rd</sup> 2022 (09:30 am - 11:30 am)</strong></p>
                 <p><strong>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day&nbsp;</strong></p>
-                <p><strong>🧑&zwj;🏫 Course Fees: <span> VIEW MORE</span>.</p>
+                <p><strong>🧑&zwj;🏫 Course Fees: <span> 
+                  <a href="course-detail/data-science-training-kochi" class="stroke-btn">View More</a></span>
+                </strong></p>
+                <div>
+                  </div>
               </div>
-              <!-- <div>
-          <h4>Big Data - Hadoop</h4>
-          <p>Java, Hadoop, Installation, Cloudera Hadoop, Configuration, HDFS, Map Reduce, YARN,Pig, Hive, Sqoop, Projects </p>
-          </div> -->
-              <div class=" button-container"="">
-                <a href="course-detail/data-science-training-kochi" class="stroke-btn">View More</a>
+              
                 </span></strong></p>
               </div><strong>
               </strong>
@@ -389,9 +434,43 @@ width:100%;
           </div>
         </div>
       </div>
+      <div class="col-lg-12">
+        <div class="row" style="height: 600px;">
+        <div class="course-section col-lg-4 course-item-sec">
+        <div class="card" style="height:500px;">
+          <img src="./images/python-1588143191.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Python Django - Angular- Full Stack Web Development Expert</h3>
+            <p class="card-text">Core Python, Basics of Programming, Unix Commands, Advanced Python, Django Framework, REST API, Git, Angul...</p>
+            <a href="#" class="button-container">VIEW MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="course-section col-lg-4 course-item-sec">
+        <div class="card" style="height:500px;">
+          <img src="./images/st-1588580359.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Software Testing Specialist</h3>
+            <p class="card-text">Manual Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium Web driver, Selenium Advanced Web...</p>
+            <a href="#" class="button-container">VIEW MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="course-section col-lg-4 course-item-sec">
+        <div class="card" style="height:500px;">
+          <img src="./images/ms-1623825586.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">MEARN Stack Web Development Expert - Angular & React</h3>
+            <p class="card-text"> HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL, Express.JS, Angular, React.js and Node....</p>
+            <a href="#" class="button-container">VIEW MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
     </div>
   </div>
-
+</div>
 </body>
 
 </html>
